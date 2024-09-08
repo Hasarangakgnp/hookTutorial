@@ -1,5 +1,6 @@
 
 import './App.css'
+import UseEffect from './hooks/useEffect/UseEffect'
 import UseState from './hooks/useState/Counter'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <UseState/>
+      <UseEffect/>
     </>
   )
 }
