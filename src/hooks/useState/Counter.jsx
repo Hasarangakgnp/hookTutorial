@@ -20,7 +20,7 @@ const UseState = () => {
 
   return (
     <>
-    <div>
+    <div className='bg-blue-500'>
       Count: {counter}
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
